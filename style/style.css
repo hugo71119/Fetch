@@ -1,0 +1,16 @@
+.imagen{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.3), rgba(5, 7, 12, 0.3)), url("../img/bg-bitcoin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+@media (min-width: 992px) { 
+    .ars{
+        display: none;
+    }
+}
+@media (max-width: 768px) { 
+    .espaciado{
+        margin-top: 3rem;
+    }
+}
